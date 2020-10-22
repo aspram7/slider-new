@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Slider</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="slide-show">
+            <div class="slider">
+                <div class="slide-images">
+                    <img src="images/1.jpg" id="myImages" />
+                </div>
+                <div class="arrow-class">
+                    <img
+                        src="images/arrow.png"
+                        class="arrow left"
+                        onclick="func(-1)"
+                    />
+                    <img
+                        src="images/arrow.png"
+                        class="arrow right"
+                        onclick="func(0)"
+                    />
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
